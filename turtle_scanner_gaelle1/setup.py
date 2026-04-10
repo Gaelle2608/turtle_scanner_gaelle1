@@ -23,7 +23,8 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
+        'console_scripts':[
+            'spawn_target = turtle_scanner_gaelle1.spawn_target:main',
         ],
     },
 )
